@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(42, 42, 190);
+    color: white;
+    padding: 5px;
+}
+
+th {
+    padding: 10pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+td {
+   /*  margin-left: 20px; */
+   text-align: center;
+}
+
+.container {
+/*     border: solid;
+    border-width: thin;
+    border-color: grey; */
+    padding: 10pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt; 
+}
+
+.container2 {
+    border: solid;
+    border-width: thin;
+    border-color: grey;
+    padding: 10pt;
+    margin-bottom: 15px;
+    border-radius: 1em;
+}
+
+.container3 {;
+    padding: 10pt;
+    border: solid;
+    border-width: thin;
+    border-color: grey;
+    border-radius: 1em;
+}
+
+.jumbotron {
+    border: 2px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-color: hsl(22, 81%, 27%);
+    color: white;
+}
+
+.jumbotron {
+    height: 125px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(15, 15, 168);
+}
+
+#trains tbody{
+
+}

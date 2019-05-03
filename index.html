@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../train_scheduler_assignment/assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <title>Employee Data Management</title>
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Anytime is Train Time</h1>
+            <h3>Choo Choo. Chee Chee.</h3>
+        </div>
+        <div class="container2"><h5>Current Train Schedule</h5>
+            <div class="trainSchedule">
+                    <table class="table" id="trains">
+                        <thead>
+
+                            <tr>
+                                <th>Train Name</th>
+                                <th>Destination</th>
+                                <th>Frecuency (min)</th>
+                                <th>Next Arrival</th>
+                                <th>Minutes Away</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+
+        <div class="container3">
+            <form>
+                <div class="form-group"><h5>Add Train</h5>
+                    <label for="train-name">Train Name</label>
+                    <input type="search" class="form-control" id="train-name">
+                </div>
+                <div class="form-group">
+                    <label for="role">Destination</label>
+                    <input type="search" class="form-control" id="trainDestination">
+                </div>
+                <div class="form-group">
+                        <label for="firstTrainTime">First Train Time (HH:mm military time)</label>
+                        <input type="time" class="form-control" id="firstTrainTime">
+                    </div>
+                <div class="form-group">
+                        <label for="frecuency">"Frecuency (min)"</label>
+                        <input type="search" class="form-control" id="frecuency">
+                        </div>
+                <button type="search" id="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../train_scheduler_assignment/assets/javascript/app.js"></script>
+     <!-- Added Moment JS -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+
+
+    <!-- START FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright" style="margin-right : 10px; background-color: blue; color : white; text-align: right; font-size: 10px;">UoA Coding Boot Camp Train Schedule Assignment
+                &copy;
+                2019 Coded by
+                <a href="https://github.com/iquevedom" target="_blank">IQuevedo</a>
+                <a> v 1.0</a>.
+            </div>
+
+
+            <!--End mc_embed_signup-->
+
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+</body>
+
+</html>
